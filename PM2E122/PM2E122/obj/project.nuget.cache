@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fJ4z4Xnn5yYVb3QwtI6YSTMz9wXqWLkNUyjqHWoEm4gjzV2l7sqD2lCnzu3J+r3b6/yyzjwm7agPM2zHBjZtVA==",
+  "dgSpecHash": "HAUmUX6dIny5MbOWvRn9MM1atfMylMv2D1RGn14v2yIiFlb3sUudBSP4mrZlE9IkBFnV5NvLbdjuPj/+FZA2ZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jairo Perdomo\\source\\repos\\PM2E122\\PM2E122\\PM2E122\\PM2E122.csproj",
   "expectedPackageFiles": [
@@ -17,8 +17,9 @@
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xamarin.forms\\5.0.0.2125\\xamarin.forms.5.0.0.2125.nupkg.sha512",
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2125\\xamarin.forms.maps.5.0.0.2125.nupkg.sha512"
   ],
   "logs": []
 }

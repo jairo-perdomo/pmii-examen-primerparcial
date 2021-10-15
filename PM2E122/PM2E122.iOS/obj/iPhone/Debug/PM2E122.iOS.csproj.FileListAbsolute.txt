@@ -68,3 +68,5 @@ C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.iOS\obj\iPhone\Debug
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.iOS\obj\iPhone\Debug\PM2E122.iOS.csproj.CopyComplete
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.iOS\obj\iPhone\Debug\PM2E122.iOS.exe
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.iOS\obj\iPhone\Debug\PM2E122.iOS.pdb
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.dll
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.iOS.dll

@@ -17,7 +17,7 @@
             <Editor x:Name="txtLongDescription" Placeholder="Escriba la direccion de la ubicacion" Keyboard="Plain" AutoSize="TextChanges" MaxLength="180"></Editor>
 
             <Label Text="Descripcion corta" TextTransform="Uppercase"></Label>
-            <Entry x:Name="txtShortDescription" Placeholder="Escriba una descripcion corta"></Entry>
+            <Entry x:Name="txtShortDescription" Placeholder="Escriba una descripcion corta" Keyboard="Plain"></Entry>
 
             <Button x:Name="btnSaveLocation" Text="Guardar ubicacion" Clicked="btnSaveLocation_Clicked"></Button>
             <Button x:Name="btnShowLocations" Text="Ubicaciones guardadas" Clicked="btnShowLocations_Clicked"></Button>

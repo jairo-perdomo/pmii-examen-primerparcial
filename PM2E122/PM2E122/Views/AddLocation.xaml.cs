@@ -3,6 +3,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Plugin.Geolocator;
 using Xamarin.Forms.Xaml;
+using System.Threading.Tasks;
 
 namespace PM2E122.Views
 {
@@ -74,26 +75,57 @@ namespace PM2E122.Views
             }
         }
 
+        private async Task<bool> validateForm()
+        {
+            if (String.IsNullOrWhiteSpace(txtLatitude.Text))
+            {
+                await DisplayAlert("Advertencia", "El campo de latitud esta vacio", "OK");
+                return false;
+            }
+            else if(String.IsNullOrWhiteSpace(txtLongitud.Text))
+            {
+                await DisplayAlert("Advertencia", "El campo de longitud esta vacio", "OK");
+                return false;
+            }
+            else if (String.IsNullOrWhiteSpace(txtLongDescription.Text))
+            {
+                await DisplayAlert("Advertencia", "El campo de Descripcion larga esta vacio", "OK");
+                return false;
+            }
+            else if (String.IsNullOrWhiteSpace(txtShortDescription.Text))
+            {
+                await DisplayAlert("Advertencia", "El campo de descripcion corta esta vacio", "OK");
+                return false;
+            }
+
+            return true;
+        }
+
         private async void btnSaveLocation_Clicked(object sender, EventArgs e)
         {
-            var locationToSave = new Models.Location()
+            if(await validateForm())
             {
-                latitude = double.Parse(txtLatitude.Text),
-                length = double.Parse(txtLongitud.Text),
-                longDescription = txtLongDescription.Text,
-                shortDescription = txtShortDescription.Text
-            };
+               
+                var locationToSave = new Models.Location()
+                {
+                    latitude = double.Parse(txtLatitude.Text),
+                    length = double.Parse(txtLongitud.Text),
+                    longDescription = txtLongDescription.Text,
+                    shortDescription = txtShortDescription.Text
+                };
 
-            var resultforSave = await App.BaseDatos.saveLocation(locationToSave);
-            if(resultforSave == 1)
-            {
-                await DisplayAlert("Guardar", "Se ha guardado correctamente", "OK");
-                
+                var resultforSave = await App.BaseDatos.saveLocation(locationToSave);
+                if (resultforSave == 1)
+                {
+                    await DisplayAlert("Guardar", "Se ha guardado correctamente", "OK");
+
+                }
+                else
+                {
+                    await DisplayAlert("Error", "No se ha podido guardar", "OK");
+                } 
             }
-            else
-            {
-                await DisplayAlert("Error", "No se ha podido guardar", "OK");
-            }
+
         }
 
         private void btnShowLocations_Clicked(object sender, EventArgs e)

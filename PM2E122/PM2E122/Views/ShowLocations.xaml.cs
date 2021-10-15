@@ -16,5 +16,31 @@ namespace PM2E122.Views
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            chargeData();
+        }
+
+        private async void chargeData()
+        {
+            var listViewLocations = await App.BaseDatos.getListLocations();
+
+            if(listViewLocations != null)
+            {
+                listLocations.ItemsSource = listViewLocations;
+            }
+        }
+
+        private void btnDeleteLocation_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShowMap_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

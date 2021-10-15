@@ -269,14 +269,29 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2125": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2125"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PM2E122/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2125",
+          "Xamarin.Forms.Maps": "5.0.0.2125",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -555,14 +570,29 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2125": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2125"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PM2E122/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2125",
+          "Xamarin.Forms.Maps": "5.0.0.2125",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -841,14 +871,29 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2125": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2125"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PM2E122/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2125",
+          "Xamarin.Forms.Maps": "5.0.0.2125",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -1127,14 +1172,29 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2125": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2125"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PM2E122/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012",
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2125",
+          "Xamarin.Forms.Maps": "5.0.0.2125",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -1679,6 +1739,40 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/5.0.0.2125": {
+      "sha512": "2FDWADipiF8agAqoFNOTHdefJsIO1mHdLe/yI9GxdVtnIUPrs7CR7z48XWMx+1h0/nltTzQEpSksqImg7gZshQ==",
+      "type": "package",
+      "path": "xamarin.forms.maps/5.0.0.2125",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.5.0.0.2125.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "PM2E122/1.0.0": {
       "type": "project",
       "path": "../PM2E122/PM2E122.csproj",
@@ -1771,5 +1865,33 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.0 to 1.6.1. Reference the package directly from the project to select a different version. \r\n PM2E122.iOS -> PM2E122 -> Xamarin.Essentials (>= 1.7.0) \r\n PM2E122.iOS -> Xamarin.Essentials (>= 1.6.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2125 to 5.0.0.2012. Reference the package directly from the project to select a different version. \r\n PM2E122.iOS -> PM2E122 -> Xamarin.Forms (>= 5.0.0.2125) \r\n PM2E122.iOS -> Xamarin.Forms (>= 5.0.0.2012)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

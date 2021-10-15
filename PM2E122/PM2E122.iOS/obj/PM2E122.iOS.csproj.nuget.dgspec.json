@@ -133,11 +133,15 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2012, )"
+              "version": "[5.0.0.2125, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2125, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
