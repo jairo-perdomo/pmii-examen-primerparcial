@@ -23,7 +23,7 @@
     <EmbeddedResource Update="Views\AddLocation.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\Map.xaml">
+    <EmbeddedResource Update="Views\MostrarMapa.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ShowLocations.xaml">

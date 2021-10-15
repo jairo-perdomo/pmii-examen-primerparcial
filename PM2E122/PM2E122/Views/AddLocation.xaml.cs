@@ -21,7 +21,6 @@ namespace PM2E122.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            // getLocation();
             Locate();
         }
 

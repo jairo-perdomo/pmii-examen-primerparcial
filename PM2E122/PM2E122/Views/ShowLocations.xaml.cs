@@ -48,7 +48,8 @@ namespace PM2E122.Views
 
         private async void btnShowMap_Clicked(object sender, EventArgs e)
         {
-            var mapPage = new Map();
+            var mapPage = new MostrarMapa();
+            
             /* 
             mapPage.BindingContext = locationTemporal;
             btnDeleteLocation.IsVisible = false;
