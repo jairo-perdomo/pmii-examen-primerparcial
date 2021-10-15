@@ -8,34 +8,33 @@
                 <Label Text="Lista de Ubicaciones" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"></Label>
             </Frame>
 
-            <ListView x:Name="listLocations" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"></RowDefinition>
-                                    <RowDefinition Height="Auto"></RowDefinition>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"></ColumnDefinition>
-                                    <ColumnDefinition Width="*"></ColumnDefinition>
-                                    <ColumnDefinition Width="*"></ColumnDefinition>
-                                    <ColumnDefinition Width="*"></ColumnDefinition>
-                                    <ColumnDefinition Width="*"></ColumnDefinition>
-                                </Grid.ColumnDefinitions>
-                                <Label Text="{Binding id}" x:Name="id" Grid.Row="0" Grid.Column="0" TextColor="Blue" HorizontalOptions="Center"></Label>
-                                <Label Text="{Binding latitude}" Grid.Row="0" Grid.Column="1" TextColor="Gray"></Label>
-                                <Label Text="{Binding length}" Grid.Row="0" Grid.Column="2" TextColor="Gray"></Label>
-                                <Label Text="{Binding longDescription}" Grid.Row="0" Grid.Column="3" TextColor="Gray" HorizontalOptions="Center"></Label>
-                                <Label Text="{Binding shortDescription}" Grid.Row="0" Grid.Column="4" TextColor="Gray"></Label>
-
-                            <Button x:Name="btnDeleteLocation" Text="Eliminar" Clicked="btnDeleteLocation_Clicked" IsVisible="false"></Button>
-                            <Button x:Name="btnShowMap" Text="Ver Mapa" Clicked="btnShowMap_Clicked" IsVisible="false"></Button>
+        <ListView x:Name="listLocations" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemSelected="listLocations_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding id}" x:Name="id" Grid.Row="0" Grid.Column="0" TextColor="Blue" HorizontalOptions="Center"></Label>
+                            <Label Text="{Binding latitude}" Grid.Row="0" Grid.Column="1" TextColor="Gray"></Label>
+                            <Label Text="{Binding length}" Grid.Row="0" Grid.Column="2" TextColor="Gray"></Label>
+                            <Label Text="{Binding longDescription}" Grid.Row="0" Grid.Column="3" TextColor="Gray" HorizontalOptions="Center"></Label>
+                            <Label Text="{Binding shortDescription}" Grid.Row="0" Grid.Column="4" TextColor="Gray"></Label>
                         </Grid>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="btnDeleteLocation" Text="Eliminar" Clicked="btnDeleteLocation_Clicked" IsVisible="false"></Button>
+        <Button x:Name="btnShowMap" Text="Ver Mapa" Clicked="btnShowMap_Clicked" IsVisible="false"></Button>
+    </StackLayout>
 </ContentPage>

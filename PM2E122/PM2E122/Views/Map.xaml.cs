@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
@@ -18,8 +15,7 @@ namespace PM2E122.Views
             InitializeComponent();
             
         }
-
-        protected override void OnAppearing()
+        protected async override void OnAppearing()
         {
             base.OnAppearing();
             Pin pin = new Pin
@@ -31,6 +27,15 @@ namespace PM2E122.Views
             };
             map.Pins.Add(pin);
             Content = map;
+
+            var location = await Geolocation.GetLocationAsync();
+
+            if(location == null)
+            {
+                location = await Geolocation.GetLastKnownLocationAsync();
+            }
+
+            map.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(location.Latitude, location.Longitude), Distance.FromMiles(1)));
         }
     }
 }

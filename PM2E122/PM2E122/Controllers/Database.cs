@@ -15,28 +15,28 @@ namespace PM2E122.Controllers
         {
             database = new SQLiteAsyncConnection(databasePath);
 
-            database.CreateTableAsync<Location>().Wait();
+            database.CreateTableAsync<Localizacion>().Wait();
         }
 
         // CRUD Operations with SQLite
 
         // Get Location List
-        public Task<List<Location>> getListLocations()
+        public Task<List<Localizacion>> getListLocations()
         {
-            return database.Table<Location>().ToListAsync();
+            return database.Table<Localizacion>().ToListAsync();
         }
 
 
         // Get Location by Id
-        public Task<Location> getLocationByCode(int codeLocation)
+        public Task<Localizacion> getLocationByCode(int codeLocation)
         {
-            return database.Table<Location>()
+            return database.Table<Localizacion>()
                 .Where(i => i.id == codeLocation)
                 .FirstOrDefaultAsync();
         }
 
         // Create or Update Location
-        public Task<int> saveLocation(Location location)
+        public Task<int> saveLocation(Localizacion location)
         {
             if(location.id != 0)
             {
@@ -49,7 +49,7 @@ namespace PM2E122.Controllers
         }
 
         // Delete location by Id
-        public Task<int> deleteLocation(Location location)
+        public Task<int> deleteLocation(Localizacion location)
         {
             return database.DeleteAsync(location);
         }

@@ -2,10 +2,12 @@ C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\bin\Debug\netstandar
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\bin\Debug\netstandard2.0\PM2E122.dll
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\bin\Debug\netstandard2.0\ref\PM2E122.dll
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\bin\Debug\netstandard2.0\PM2E122.pdb
-C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\PM2E122.csproj.AssemblyReference.cache
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\PM2E122.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\Views\AddLocation.xaml.g.cs
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\Views\Map.xaml.g.cs
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\Views\ShowLocations.xaml.g.cs
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\PM2E122.AssemblyInfoInputs.cache
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\PM2E122.AssemblyInfo.cs
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\PM2E122.csproj.CoreCompileInputs.cache
@@ -13,6 +15,3 @@ C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandar
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\PM2E122.dll
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\ref\PM2E122.dll
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\PM2E122.pdb
-C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\Views\AddLocation.xaml.g.cs
-C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\Views\ShowLocations.xaml.g.cs
-C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\Views\Map.xaml.g.cs

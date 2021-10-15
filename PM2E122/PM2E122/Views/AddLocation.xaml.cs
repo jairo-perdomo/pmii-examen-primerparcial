@@ -10,8 +10,9 @@ namespace PM2E122.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddLocation : ContentPage
     {
-        double numberLatitude;
-        double numberLength;
+        private double numberLatitude;
+        private double numberLength;
+
         public AddLocation()
         {
             InitializeComponent();
@@ -106,7 +107,7 @@ namespace PM2E122.Views
             if(await validateForm())
             {
                
-                var locationToSave = new Models.Location()
+                var locationToSave = new Models.Localizacion()
                 {
                     latitude = double.Parse(txtLatitude.Text),
                     length = double.Parse(txtLongitud.Text),

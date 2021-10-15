@@ -5,7 +5,7 @@ using SQLite;
 
 namespace PM2E122.Models
 {
-    public class Location
+    public class Localizacion
     {
         [PrimaryKey, AutoIncrement]
         public int id { get; set; }

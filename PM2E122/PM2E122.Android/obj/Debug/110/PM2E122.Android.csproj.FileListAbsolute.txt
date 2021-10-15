@@ -665,7 +665,8 @@ C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\11
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\lp\98\jl\files.cache
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\lp\100\jl\files.cache
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\lp\101\jl\files.cache
-C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\androidx\jl\4485461f-96b3-47d5-9205-f9ce4a29096e.jar
-C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\androidx\proguard\387bf3f5-d598-467b-bb23-11bd693ca170.txt
-C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\androidx\proguard\91531b48-a944-47f7-8350-763ae0b44bbe.cfg
-C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\androidx\proguard\c0018c37-d358-4711-803e-072c7cb79b28.txt
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\PM2E122.Android.csproj.CopyComplete
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\androidx\jl\30aee7e1-b54a-436d-93e7-d421135eaf7a.jar
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\androidx\proguard\67f5e35e-2b9d-4273-b148-90b3473f0835.txt
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\androidx\proguard\8a2a3136-edec-4d4d-8278-6e44eb57f9ff.cfg
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122.Android\obj\Debug\110\androidx\proguard\c92f1efb-ece2-48ba-9866-49248aa45aa2.txt
