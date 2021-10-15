@@ -13,3 +13,5 @@ C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandar
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\PM2E122.dll
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\ref\PM2E122.dll
 C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\PM2E122.pdb
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\Views\AddLocation.xaml.g.cs
+C:\Users\Jairo Perdomo\source\repos\PM2E122\PM2E122\PM2E122\obj\Debug\netstandard2.0\Views\ShowLocations.xaml.g.cs

@@ -7,9 +7,10 @@
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Agenda de Ubicaciones" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"></Label>
         </Frame>
-
-        <Button Text="Agregar ubicacion" VerticalOptions="Center" HorizontalOptions="Center"></Button>
-        <Button Text="Lista Ubicaciones" VerticalOptions="Center" HorizontalOptions="Center"></Button>
+        <Label x:Name="latitud"></Label>
+        <Label x:Name="longitud"></Label>
+        <Button x:Name="btnAddLocation" Text="Agregar ubicacion" VerticalOptions="Center" HorizontalOptions="Center" Clicked="btnAddLocation_Clicked"></Button>
+        <Button x:Name="btnListLocation" Text="Lista Ubicaciones" VerticalOptions="Center" HorizontalOptions="Center" Clicked="btnListLocation_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>
